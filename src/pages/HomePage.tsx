@@ -134,6 +134,8 @@ export default function HomePage() {
               <img
               src={logoImg}
               alt="Akash Wood Works Logo"
+              data-aos ="zoom-in"
+              data-aos-duration="1200"
               className="w-14 h-14 md:w-16 md:h-16 object-contain bg-white rounded-md p-1"/>
             </button>
             <div>
@@ -214,7 +216,7 @@ export default function HomePage() {
 
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto px-6 min-h-[600px] flex flex-col justify-center">
+        <div className="relative max-w-7xl mx-auto px-6 min-h-[600px] flex flex-col justify-center" data-aos="fade-right">
           
           <p className="text-gray-300 uppercase tracking-widest text-sm mb-4">
             MANUFACTURERS OF
@@ -315,7 +317,7 @@ export default function HomePage() {
 
    {/* Products Section */}
 
-      <section id="products" className="py-20 bg-white scroll-mt-24">
+      <section id="products" className="py-20 bg-white scroll-mt-24" data-aos="fade-up">
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mb-8">
@@ -364,7 +366,7 @@ export default function HomePage() {
                 img: pinewoodReaperImg,
               },
             ].map((product, index) => (
-              <div key={index}>
+              <div key={index} data-aos="zoom-in">
                 <div className="bg-gray-50 rounded-lg border border-gray-200 overflow-hidden shadow-sm mb-4 h-72 flex items-center justify-center">
                   <img
                     src={product.img}
@@ -388,7 +390,7 @@ export default function HomePage() {
 
       {/* About Section */}
 
-      <section id="about" className="py-20 bg-gray-50 scroll-mt-24">
+      <section id="about" className="py-20 bg-gray-50 scroll-mt-24" data-aos="fade-up">
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl text-gray-900 mb-8">
@@ -410,7 +412,7 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
 
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-lg shadow-sm" data-aos="zoom-in">
               <div className="flex items-center gap-3 mb-3">
                 <Clock className="text-amber-600" />
                 <span className="text-4xl">10+</span>
@@ -420,7 +422,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-lg shadow-sm" data-aos="zoom-in">
               <div className="flex items-center gap-3 mb-3">
                 <CheckCircle className="text-amber-600" />
                 <span className="text-4xl">500+</span>
@@ -430,7 +432,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-lg shadow-sm" data-aos="zoom-in">
               <div className="flex items-center gap-3 mb-3">
                 <Package className="text-amber-600" />
                 <span className="text-4xl">1000+</span>
@@ -440,7 +442,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-lg shadow-sm" data-aos="zoom-in">
               <div className="flex items-center gap-3 mb-3">
                 <Settings className="text-amber-600" />
                 <span className="text-4xl">100%</span>
@@ -490,21 +492,21 @@ export default function HomePage() {
     {/* Clients Section */}
 
       <section 
-      className="py-16 bg-gray-50">
+      className="py-16 bg-gray-50" data-aos="fade-up">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl text-center text-gray-900 mb-10"> OUR CLIENTS </h2>
           <div className="flex flex-wrap justify-center items-center gap-10">
-            <div className="w-40 h-20 bg-white rounded shadow-sm flex items-center justify-center p-4">
+            <div className="w-40 h-20 bg-white rounded shadow-sm flex items-center justify-center p-4" data-aos ="zoom-in" data-aos-delay="100">
               <img
               src={cumiLogo}
               alt="CUMI"
-              className="max-w-full max-h-full object-contain"/>
+              className="max-w-full max-h-full object-contain transition-transform duration-500 hover:scale-110"/>
             </div>
-          <div className="w-40 h-20 bg-white rounded shadow-sm flex items-center justify-center p-4">
+          <div className="w-40 h-20 bg-white rounded shadow-sm flex items-center justify-center p-4" data-aos="zoom-in" data-aos-delay="300">
             <img
             src={vstLogo}
             alt="VST Tillers Tractors"
-            className="max-w-full max-h-full object-contain"/>
+            className="max-w-full max-h-full object-contain transition-transform duration-500 hover:scale-110"/>
           </div>
         </div>
         </div>
@@ -515,6 +517,7 @@ export default function HomePage() {
       <section
         id="contact"
         className="py-20 bg-[#2d1f13] text-white scroll-mt-24"
+        data-aos="fade-up"
       >
         <div className="max-w-7xl mx-auto px-6">
 
