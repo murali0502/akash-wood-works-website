@@ -6,7 +6,7 @@ import { MapPin } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 import cumiLogo from '../imports/CUMI.jpeg';
-import vstLogo from '../imports/Veritas-Logo.png';
+import vstLogo from '../imports/VST.jpeg';
 
 import plywoodBoxImg from '../imports/Plywood Box.jpeg';
 import batteryBoxImg from '../imports/Battery Box.jpeg';
