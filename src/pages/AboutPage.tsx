@@ -72,30 +72,26 @@ export default function AboutPage() {
 
       <div className="space-y-6 text-white text-lg leading-relaxed">
         
-        <p> 
+        <p>
           Akash Wood Works is a trusted manufacturer and supplier of
+          
           <span className="text-amber-400 font-semibold">
-            {" "}wooden pallets, plywood boxes, wooden crates, pinewood packaging materials, and industrial packaging solutions{" "}
+            {" "}wooden pallets, plywood boxes, wooden crates, and industrial packaging solutions{" "}
           </span>
           based in Hosur, Tamil Nadu.
         </p>
         
         <p>
-          We specialize in serving manufacturing industries, engineering companies,
-          logistics providers, battery manufacturers, and export-oriented businesses
-          by delivering reliable, durable, and customized packaging solutions designed
-          for safe handling, storage, and transportation.
+          We serve manufacturing, engineering, logistics, battery, and export industries
+          with durable, customized packaging solutions designed for safe storage,
+          handling, and transportation.
         </p>
         
         <p>
-          With a strong focus on quality, timely delivery, and long-term business
-          partnerships, we work closely with industrial clients to provide packaging
-          solutions that meet operational, logistics, and export requirements. Our
-          commitment to precision manufacturing and consistent product quality has
-          helped us build trusted relationships with businesses across multiple
+          Our commitment to quality, timely delivery, and reliable service has made us
+          a trusted B2B partner for industrial packaging requirements across multiple
           industries.
-        </p>
-        
+        </p>        
       </div>
 
     </div>
@@ -168,7 +164,7 @@ export default function AboutPage() {
     </div>
 
     <h3 className="text-xl font-semibold text-gray-900 mb-3">
-      Customer Focus
+      Vendor Focus
     </h3>
 
     <p className="text-gray-600 text-sm leading-relaxed">
