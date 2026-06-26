@@ -71,27 +71,31 @@ export default function AboutPage() {
       <div className="w-20 h-1 bg-amber-500 mb-8"></div>
 
       <div className="space-y-6 text-white text-lg leading-relaxed">
-
-        <p>
-          At Akash Wood Works, we are committed to delivering
+        
+        <p> 
+          Akash Wood Works is a trusted manufacturer and supplier of
           <span className="text-amber-400 font-semibold">
-            {" "}premium wooden packaging solutions{" "}
+            {" "}wooden pallets, plywood boxes, wooden crates, pinewood packaging materials, and industrial packaging solutions{" "}
           </span>
-          that ensure protection, performance, and peace of mind.
+          based in Hosur, Tamil Nadu.
         </p>
-
+        
         <p>
-          From export-ready wooden crates and pallets to customized
-          industrial packaging, every product is manufactured with
-          precision, using quality materials and industry best practices.
+          We specialize in serving manufacturing industries, engineering companies,
+          logistics providers, battery manufacturers, and export-oriented businesses
+          by delivering reliable, durable, and customized packaging solutions designed
+          for safe handling, storage, and transportation.
         </p>
-
+        
         <p>
-          Our dedication to quality, reliability, and customer satisfaction
-          has made us a trusted partner for industries across manufacturing,
-          logistics, engineering, pharmaceuticals, exports, and heavy machinery.
+          With a strong focus on quality, timely delivery, and long-term business
+          partnerships, we work closely with industrial clients to provide packaging
+          solutions that meet operational, logistics, and export requirements. Our
+          commitment to precision manufacturing and consistent product quality has
+          helped us build trusted relationships with businesses across multiple
+          industries.
         </p>
-
+        
       </div>
 
     </div>

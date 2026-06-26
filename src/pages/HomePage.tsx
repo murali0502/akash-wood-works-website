@@ -234,8 +234,10 @@ export default function HomePage() {
               </span>
               </h1>
             <p className="text-gray-200 text-lg max-w-2xl mb-8">
-              Delivering high-quality, durable and cost-effective packaging
-              solutions for industries across India.
+              Delivering high-quality wooden pallets, plywood boxes, 
+              wooden crates, and industrial packaging solutions for 
+              manufacturing, logistics, engineering, and export 
+              industries across India.
             </p>
 
           {/* Feature Cards */}
@@ -425,10 +427,10 @@ export default function HomePage() {
             <div className="bg-white p-6 rounded-lg shadow-sm" data-aos="zoom-in">
               <div className="flex items-center gap-3 mb-3">
                 <CheckCircle className="text-amber-600" />
-                <span className="text-4xl">500+</span>
+                <span className="text-4xl">50+</span>
               </div>
               <p className="text-gray-600">
-                HAPPY CUSTOMERS
+                INDUSTRIAL CLIENTS
               </p>
             </div>
 
@@ -494,7 +496,7 @@ export default function HomePage() {
       <section 
       className="py-16 bg-gray-50" data-aos="fade-up">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl text-center text-gray-900 mb-10"> OUR CLIENTS </h2>
+          <h2 className="text-4xl text-center text-gray-900 mb-10"> OUR INDUSTRIAL CLIENTS </h2>
           <div className="flex flex-wrap justify-center items-center gap-10">
             <div className="w-40 h-20 bg-white rounded shadow-sm flex items-center justify-center p-4" data-aos ="zoom-in" data-aos-delay="100">
               <img
@@ -531,7 +533,7 @@ export default function HomePage() {
               </h2>
 
               <p className="text-amber-500 uppercase tracking-wider text-sm mb-8">
-                Your Trusted Partner For Wooden Packaging Solutions
+                Reliable B2B Manufacturing Partner for Industrial Packaging Solutions
               </p>
 
               <div className="space-y-6">
