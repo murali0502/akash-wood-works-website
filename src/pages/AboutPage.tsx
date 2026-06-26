@@ -80,7 +80,7 @@ export default function AboutPage() {
           </span>
           based in Hosur, Tamil Nadu.
         </p>
-        
+      
         <p>
           We serve manufacturing, engineering, logistics, battery, and export industries
           with durable, customized packaging solutions designed for safe storage,
