@@ -580,8 +580,8 @@ export default function HomePage() {
                     className="block hover:text-amber-500 transition-colors"> +91 99440 70300 </a>
                     
                     <a
-                    href="tel:+919944352203"
-                    className="block hover:text-amber-500 transition-colors"> +91 99443 52203 </a>
+                    href="tel:+918903000465"
+                    className="block hover:text-amber-500 transition-colors"> +91 89030 00465 </a>
                   </div>
                 </div>
 
